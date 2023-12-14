@@ -1,5 +1,5 @@
-import { dirname as pathDirName } from "https://deno.land/std@0.209.0/path/dirname.ts";
-import { join as pathJoin } from "https://deno.land/std@0.209.0/path/join.ts";
+import { dirname as pathDirName } from "std/path/dirname.ts";
+import { join as pathJoin } from "std/path/join.ts";
 import links from "./links.ts";
 const root: string = pathJoin(Deno.cwd(), "_site");
 await Deno.mkdir(root, { recursive: true });
