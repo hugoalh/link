@@ -1,5 +1,5 @@
-import { dirname as pathDirName } from "https://deno.land/std@0.208.0/path/dirname.ts";
-import { join as pathJoin } from "https://deno.land/std@0.208.0/path/join.ts";
+import { dirname as pathDirName } from "https://deno.land/std@0.209.0/path/dirname.ts";
+import { join as pathJoin } from "https://deno.land/std@0.209.0/path/join.ts";
 import links from "./links.ts";
 const root: string = pathJoin(Deno.cwd(), "_site");
 await Deno.mkdir(root, { recursive: true });
@@ -34,21 +34,6 @@ for (const [pathRelative, url] of links.entries()) {
 
 		header div.address {
 			font-size: large;
-			font-weight: bold;
-		}
-
-		p.status {
-			font-family: 'Courier New', Courier, monospace;
-			font-size: x-large;
-			font-weight: bold;
-		}
-
-		ul.message {
-			font-size: x-large;
-			font-weight: bold;
-		}
-
-		.bold {
 			font-weight: bold;
 		}
 
