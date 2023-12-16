@@ -16,9 +16,12 @@ for (const [url, { description, paths }] of Object.entries(links)) {
 	<meta name="color-scheme" content="light dark" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<style>
+		html {
+			font-family: "Noto Sans", sans-serif;
+		}
+
 		body {
 			background-color: Canvas
-			font-family: "Noto Sans", sans-serif;
 		}
 
 		header {
