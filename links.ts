@@ -1,9 +1,22 @@
-const links: Map<string, string> = new Map<string, string>();
-links.set("", "https://github.com/hugoalh/link");
-links.set("assistance_form", "https://forms.gle/AXq9hWq2DsJrDNjP7");
-links.set("assistance_request", "https://forms.gle/AXq9hWq2DsJrDNjP7");
-links.set("assistance-form", "https://forms.gle/AXq9hWq2DsJrDNjP7");
-links.set("assistance-request", "https://forms.gle/AXq9hWq2DsJrDNjP7");
-links.set("form/assistance", "https://forms.gle/AXq9hWq2DsJrDNjP7");
-links.set("request/assistance", "https://forms.gle/AXq9hWq2DsJrDNjP7");
+interface HXHSLinkMeta {
+	description: string;
+	paths: Set<string>;
+}
+const links: Record<string, HXHSLinkMeta> = {
+	"https://forms.gle/AXq9hWq2DsJrDNjP7": {
+		description: "hxhS (hugoalh & hugoalh Studio) Assistance Request Form",
+		paths: new Set([
+			"assistance_form",
+			"assistance_request",
+			"assistance-form",
+			"assistance-request",
+			"form/assistance",
+			"request/assistance"
+		])
+	},
+	"https://github.com/hugoalh/link": {
+		description: "source of this website",
+		paths: new Set([""])
+	}
+};
 export default links;
