@@ -18,7 +18,7 @@ for (const { description, link, paths } of links) {
 
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="refresh" content="5; url=${link}" />
+	<meta http-equiv="refresh" content="4; url=${link}" />
 	<meta name="color-scheme" content="light dark" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<style>
@@ -62,7 +62,7 @@ for (const { description, link, paths } of links) {
 		<div class="address">hxhS (hugoalh & hugoalh Studio) Link Service</div>
 		<div>One of the network service endpoint of hxhS (hugoalh & hugoalh Studio). This endpoint is powered by <a href="https://pages.github.com" hreflang="en" target="_blank">GitHub Pages <sup>↗️</sup></a>.</div>
 	</header>
-	<p>You will be redirected to the ${description} in 5 seconds. <a href="${link}">Please click here if the automatic redirection is not working.</a></p>
+	<p>You will be redirected to the ${description} in 4 seconds. <a href="${link}">Please click here if the automatic redirection is not working.</a></p>
 </body>
 
 </html>`));
