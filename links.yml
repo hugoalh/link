@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=./links.schema.json
+- description: "hxhS (hugoalh & hugoalh Studio) Assistance Request Form"
+  link: "https://forms.gle/AXq9hWq2DsJrDNjP7"
+  paths:
+    - "assistance_form"
+    - "assistance_request"
+    - "assistance-form"
+    - "assistance-request"
+    - "form/assistance"
+    - "request/assistance"
+- description: "source of this website"
+  link: "https://github.com/hugoalh/link"
+  paths:
+    - ""
