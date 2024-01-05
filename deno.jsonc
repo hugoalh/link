@@ -10,7 +10,7 @@
 	},
 	"imports": {
 		// Only remap development dependencies! For more information, please visit https://docs.deno.com/runtime/manual/basics/import_maps.
-		"std/": "https://deno.land/std@0.210.0/"
+		"std/": "https://deno.land/std@0.211.0/"
 	},
 	"lint": {
 		"rules": {
