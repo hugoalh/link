@@ -21,6 +21,7 @@ for (const { description, link, paths } of links) {
 	<meta http-equiv="refresh" content="4; url=${link}" />
 	<meta name="color-scheme" content="light dark" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
 	<style>
 		html {
 			font-family: "Noto Sans", sans-serif;
@@ -54,13 +55,13 @@ for (const { description, link, paths } of links) {
 			}
 		}
 	</style>
-	<title>hxhS (hugoalh & hugoalh Studio) Link Service</title>
+	<title>hxhS (hugoalh & hugoalh Studio) Link</title>
 </head>
 
 <body>
 	<header>
-		<div class="address">hxhS (hugoalh & hugoalh Studio) Link Service</div>
-		<div>One of the network service endpoint of hxhS (hugoalh & hugoalh Studio). This endpoint is powered by <a href="https://pages.github.com" hreflang="en" target="_blank">GitHub Pages <sup>↗️</sup></a>.</div>
+		<div class="address">hxhS (hugoalh & hugoalh Studio) Link</div>
+		<div>One of the hxhS (hugoalh & hugoalh Studio) endpoint, powered by <a href="https://pages.github.com" hreflang="en" target="_blank">GitHub Pages <span class="mdi mdi-open-in-new"></span></a>.</div>
 	</header>
 	<p>You will be redirected to the ${description} in 4 seconds. <a href="${link}">Please click here if the automatic redirection is not working.</a></p>
 </body>
